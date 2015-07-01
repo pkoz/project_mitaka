@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
+ruby '2.1.4'
 
-gem 'selenium-webdriver'
-
-gem 'rspec'
-
-gem 'phantomjs'
+group :development do
+  gem 'selenium-webdriver'
+  gem 'rspec'
+  gem 'phantomjs'
+  gem 'cucumber'
+end

@@ -4,7 +4,7 @@ include RSpec::Matchers
 
 def setup
   @driver = Selenium::WebDriver.for :remote, url:
-    'http://172.17.0.12:4445'
+    'http://172.17.0.2:4445'
 end
 
 def teardown
